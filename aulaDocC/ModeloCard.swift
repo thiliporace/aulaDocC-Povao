@@ -2,19 +2,14 @@
 
 import SwiftUI
 
-///View para criar o card
-///
-/// - Parameters:
-///     - Nome: Nome que irá aparecer no card
-///     - Capa: Imagem que irá aparecer na lateral Esquerda do Card
-///     - Cargo: Cargo que irá aparecer embaixo do nome no Card
+
 
 struct ModeloCard: View {
-  ///Nome que irá aparecer no Card
+  
   var Nome: String = "Guilherme"
-  ///Imagem que irá aparecer na lateral Esquerda do Card
+  
   var Capa: String = "Chevis"
-  ///Cargo que irá aparecer embaixo do nome no Card
+  
   var Cargo: String = "Programador"
   var body: some View {
     ZStack{
