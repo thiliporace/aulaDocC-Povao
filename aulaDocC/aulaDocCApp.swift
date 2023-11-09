@@ -11,7 +11,7 @@ import SwiftUI
 struct aulaDocCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8F2AFBCF2AFD6A4E009EEABE /* aulaDocCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AFBCE2AFD6A4E009EEABE /* aulaDocCApp.swift */; };
-		8F2AFBD12AFD6A4E009EEABE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AFBD02AFD6A4E009EEABE /* ContentView.swift */; };
 		8F2AFBD32AFD6A4F009EEABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AFBD22AFD6A4F009EEABE /* Assets.xcassets */; };
 		8F2AFBD62AFD6A4F009EEABE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AFBD52AFD6A4F009EEABE /* Preview Assets.xcassets */; };
 		8F2AFBDD2AFD6DEE009EEABE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AFBDC2AFD6DEE009EEABE /* ButtonView.swift */; };
 		8F2AFBDF2AFD70C2009EEABE /* ColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AFBDE2AFD70C2009EEABE /* ColorEnum.swift */; };
+		8F2AFBE12AFD78C2009EEABE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AFBE02AFD78C2009EEABE /* HomeView.swift */; };
+		8F2AFBE32AFD78CC009EEABE /* ModeloCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AFBE22AFD78CC009EEABE /* ModeloCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F2AFBCB2AFD6A4E009EEABE /* aulaDocC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aulaDocC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2AFBCE2AFD6A4E009EEABE /* aulaDocCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aulaDocCApp.swift; sourceTree = "<group>"; };
-		8F2AFBD02AFD6A4E009EEABE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F2AFBD22AFD6A4F009EEABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F2AFBD52AFD6A4F009EEABE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F2AFBDC2AFD6DEE009EEABE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		8F2AFBDE2AFD70C2009EEABE /* ColorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnum.swift; sourceTree = "<group>"; };
+		8F2AFBE02AFD78C2009EEABE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F2AFBE22AFD78CC009EEABE /* ModeloCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				8F2AFBCE2AFD6A4E009EEABE /* aulaDocCApp.swift */,
-				8F2AFBD02AFD6A4E009EEABE /* ContentView.swift */,
 				8F2AFBD22AFD6A4F009EEABE /* Assets.xcassets */,
 				8F2AFBD42AFD6A4F009EEABE /* Preview Content */,
 				8F2AFBDC2AFD6DEE009EEABE /* ButtonView.swift */,
 				8F2AFBDE2AFD70C2009EEABE /* ColorEnum.swift */,
+				8F2AFBE02AFD78C2009EEABE /* HomeView.swift */,
+				8F2AFBE22AFD78CC009EEABE /* ModeloCard.swift */,
 			);
 			path = aulaDocC;
 			sourceTree = "<group>";
@@ -143,9 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2AFBD12AFD6A4E009EEABE /* ContentView.swift in Sources */,
 				8F2AFBCF2AFD6A4E009EEABE /* aulaDocCApp.swift in Sources */,
 				8F2AFBDF2AFD70C2009EEABE /* ColorEnum.swift in Sources */,
+				8F2AFBE32AFD78CC009EEABE /* ModeloCard.swift in Sources */,
+				8F2AFBE12AFD78C2009EEABE /* HomeView.swift in Sources */,
 				8F2AFBDD2AFD6DEE009EEABE /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
