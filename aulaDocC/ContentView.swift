@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-///``content``
+///``Tela principal do nosso aplicativo``
+/// - Parameters:
+///     - body: O corpo do texto
 
 struct ContentView: View {
     var body: some View {
